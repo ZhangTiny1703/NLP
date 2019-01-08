@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# 中文分词
+# 中文分句
 
 import sys
 import os
