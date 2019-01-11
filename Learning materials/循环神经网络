@@ -2,3 +2,29 @@
   记忆特性
   接收两个参数（输入x，和上一时间的输出o）
   参数共享（权重w 确保每一步在做相同的事）
+
+循环神经网络RNN的网络结构：
+  one-to-one:分类
+    x->O->o
+    
+  one-to-many:图片描述，音乐生成（多序列）
+    x->O->o
+     ->O->o
+     ->O->o
+     
+  many-to-one:句子输入，多分类
+    x->O
+    x->O
+    x->O->o
+    
+  many-to-many(1):语言翻译
+    x->O
+    x->O
+    x->O->o
+       O->o
+       O->o
+       
+  many-to-many(2):命名实体识别
+    x->O->o
+    x->O->o
+    x->O->o
